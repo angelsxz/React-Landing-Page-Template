@@ -71,8 +71,11 @@ hr {
   border: 0;
 }
 /* Navigation */
-#menu {
+/* #menu {
   padding: 15px;
+  transition: all 0.8s;
+} */
+#menu {
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -91,7 +94,7 @@ hr {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #555;
-  font-size: 15px;
+  font-size: 75%;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
@@ -241,7 +244,7 @@ a:focus,
 }
 header .intro-text {
   padding-top: 350px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   text-align: center;
 }
 /* Features Section */
