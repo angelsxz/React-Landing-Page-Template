@@ -1,16 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { Routes, Route } from 'react-router-dom';
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-// import { Testimonials } from "./components/testimonials";
-// import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
+import Gallery from "./gallery/Gallery";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import Home from "./home/Home";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -24,16 +19,15 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div id="container-app">
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <About data={landingPageData.About} />
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+      <div id="container-router-div">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/gallery" element={<Gallery />} />
+      </Routes>
+      </div>
     </div>
   );
 };

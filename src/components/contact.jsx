@@ -16,31 +16,31 @@ export const Contact = (props) => {
   };
   const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(name, email, message);
+  //   emailjs
+  //     .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         clearState();
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   return (
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
+          <div className="col-md-12">
             <div className="row">
               <div className="section-title">
                 <h2>Estamos en contacto</h2>
                 <p>
-                  Puedes seguirnos en redes sociales para estar al tanto de todas nuestras primicias.
+                  Puedes seguirnos en redes sociales para estar al tanto de todas nuestras novedades.
                 </p>
               </div>
               {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -148,7 +148,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" asxz "}
+            &copy; 2023 React SPA Design by{" asxz "}
             {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
             </a> */}
