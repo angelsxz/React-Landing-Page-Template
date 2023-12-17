@@ -1,0 +1,41 @@
+{
+    "Bolsos": [
+            {
+                "title": "Bolso 1",
+                "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+                "images" : [
+                    {
+                        "source" : "img/bolsos/bolso_01_01.jpg"
+                    },
+                    {
+                        "source" : "img/bolsos/bolso_01_02.jpg"
+                    },
+                    {
+                        "source" : "img/bolsos/bolso_01_03.jpg"
+                    }
+                ],
+                "largeImage": "img/bolsos/bolso_01.jpg",
+                "smallImage": "img/bolsos/bolso_01.jpg",
+                "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+            },
+            {
+                "title": "Bolso 2",
+                "description": "Descripción Bolso 2",
+                "images" : [
+                    {
+                        "source" : "img/bolsos/bolso_02_01.jpg"
+                    },
+                    {
+                        "source" : "img/bolsos/bolso_02_02.jpg"
+                    },
+                    {
+                        "source" : "img/bolsos/bolso_02_03.jpg"
+                    }
+                ],
+                "largeImage": "img/bolsos/bolso_02.jpg",
+                "smallImage": "img/bolsos/bolso_02.jpg",
+                "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+            }
+    ]
+
+}

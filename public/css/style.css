@@ -209,7 +209,8 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 100%;
+  width: 100vw;
+  height: 50vw;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -224,8 +225,8 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
-  font-weight: 700;
+  font-size: 1em;
+  font-weight: 1em;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
@@ -243,9 +244,9 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 300px;
-  text-align: center;
+  /* padding-top: 350px;
+  padding-bottom: 300px; */
+  /* text-align: center; */
 }
 /* Features Section */
 #features {
@@ -300,6 +301,8 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
+  /*responsive media-queries*/
+  width: 80vw;
   width: 520px;
   margin-top: 10px;
   background: #fff;

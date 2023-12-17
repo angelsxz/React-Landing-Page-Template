@@ -1,0 +1,59 @@
+@media screen and (max-width: 399px) {
+  #about img {
+    width: 100vw;
+    height: 75vw;
+    border-radius: 50%;
+  }
+  #about p {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 414px) {
+  #about {
+    margin: 100px 0px 220px 0px;
+  }
+  #about img {
+    width: 100vw;
+    height: 75vw;
+    border-radius: 50%;
+  }
+  #about p {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 699px){
+  #about img {
+    width: 25vw !important;
+    height: 25vw !important;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+  }
+  #about p {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 750px) {
+  #about img {
+    width: 25vw !important;
+    height: 25vw !important;
+    border-radius: 50%;
+
+  }
+  #about p {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 751px) and (max-width: 900px) {
+
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+
+}
+@media screen and (min-width: 1201px) {
+
+}
+
+#about img {
+  width: 80vw;
+}

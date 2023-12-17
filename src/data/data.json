@@ -4,7 +4,7 @@
     "paragraph": "Tu espacio de costura creativa y diseños"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Este párrafo tiene que rellenarlo la propietaria del sitio web, porque es algo personal que le permitirá darse a conocer en el mundo. Por lo tanto, es responsabilidad de la susodicha propietaria el completar todo lore ipsum que se encuentre en la aplicación. Este párrafo tiene que rellenarlo la propietaria del sitio web, porque es algo personal que le permitirá darse a conocer en el mundo. Por lo tanto, es responsabilidad de la susodicha propietaria el completar todo lore ipsum que se encuentre en la aplicación. Este párrafo tiene que rellenarlo la propietaria del sitio web, porque es algo personal que le permitirá darse a conocer en el mundo. Por lo tanto, es responsabilidad de la susodicha propietaria el completar todo lore ipsum que se encuentre en la aplicación. ;)",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -18,53 +18,461 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery": [
-    {
-      "title": "Bolsos",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Mordedores",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Pañuelos",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Estuches",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Bolsas de aseo",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Portadocumentos para bebés",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Saquets",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Landyards",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Riñoneras",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
+  "Gallery": {
+    "title": "Galería",
+    "components": [
+      {
+        "title": "Bolsos",
+        "largeImage": "img/portfolio/01-large.jpg",
+        "smallImage": "img/portfolio/01-small.jpg",
+        "link": "bolsos"
+      },
+      {
+        "title": "Mordedores",
+        "largeImage": "img/portfolio/02-large.jpg",
+        "smallImage": "img/portfolio/02-small.jpg",
+        "link": "mordedores"
+      },
+      {
+        "title": "Pañuelos",
+        "largeImage": "img/portfolio/03-large.jpg",
+        "smallImage": "img/portfolio/03-small.jpg",
+        "link": "panuelos"
+      },
+      {
+        "title": "Estuches",
+        "largeImage": "img/portfolio/04-large.jpg",
+        "smallImage": "img/portfolio/04-small.jpg",
+        "link": "estuches"
+      },
+      {
+        "title": "Bolsas de aseo",
+        "largeImage": "img/portfolio/05-large.jpg",
+        "smallImage": "img/portfolio/05-small.jpg",
+        "link": "bolsas_aseo"
+      },
+      {
+        "title": "Portadocumentos para bebés",
+        "largeImage": "img/portfolio/06-large.jpg",
+        "smallImage": "img/portfolio/06-small.jpg",
+        "link": "portadoc_bebe"
+      },
+      {
+        "title": "Saquets",
+        "largeImage": "img/portfolio/07-large.jpg",
+        "smallImage": "img/portfolio/07-small.jpg",
+        "link": "squets"
+      },
+      {
+        "title": "Landyards",
+        "largeImage": "img/portfolio/08-large.jpg",
+        "smallImage": "img/portfolio/08-small.jpg",
+        "link": "landyards"
+      },
+      {
+        "title": "Riñoneras",
+        "largeImage": "img/portfolio/09-large.jpg",
+        "smallImage": "img/portfolio/09-small.jpg",
+        "link": "rinoneras"
+      }
+    ],
+    "items": [
+      {
+        "title": "Bolsos",
+        "largeImage": "img/portfolio/01-large.jpg",
+        "smallImage": "img/portfolio/01-small.jpg",
+        "link": "bolsos",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Mordedores",
+        "largeImage": "img/portfolio/02-large.jpg",
+        "smallImage": "img/portfolio/02-small.jpg",
+        "link": "mordedores",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Pañuelos",
+        "largeImage": "img/portfolio/03-large.jpg",
+        "smallImage": "img/portfolio/03-small.jpg",
+        "link": "panuelos",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Estuches",
+        "largeImage": "img/portfolio/04-large.jpg",
+        "smallImage": "img/portfolio/04-small.jpg",
+        "link": "estuches",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Bolsas de aseo",
+        "largeImage": "img/portfolio/05-large.jpg",
+        "smallImage": "img/portfolio/05-small.jpg",
+        "link": "bolsas_aseo",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Portadocumentos para bebés",
+        "largeImage": "img/portfolio/06-large.jpg",
+        "smallImage": "img/portfolio/06-small.jpg",
+        "link": "portadoc_bebe",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Saquets",
+        "largeImage": "img/portfolio/07-large.jpg",
+        "smallImage": "img/portfolio/07-small.jpg",
+        "link": "squets",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Landyards",
+        "largeImage": "img/portfolio/08-large.jpg",
+        "smallImage": "img/portfolio/08-small.jpg",
+        "link": "landyards",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      },
+      {
+        "title": "Riñoneras",
+        "largeImage": "img/portfolio/09-large.jpg",
+        "smallImage": "img/portfolio/09-small.jpg",
+        "link": "rinoneras",
+        "elements" : [
+          {
+              "title": "Bolso 1",
+              "description": "Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1 Descripción del Bolso 1.",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_01_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_01_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_01.jpg",
+              "smallImage": "img/bolsos/bolso_01.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=1"
+          },
+          {
+              "title": "Bolso 2",
+              "description": "Descripción Bolso 2",
+              "images" : [
+                  {
+                      "source" : "img/bolsos/bolso_02_01.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_02.jpg"
+                  },
+                  {
+                      "source" : "img/bolsos/bolso_02_03.jpg"
+                  }
+              ],
+              "largeImage": "img/bolsos/bolso_02.jpg",
+              "smallImage": "img/bolsos/bolso_02.jpg",
+              "link" : "https://www.instagram.com/p/CrGdQqFNWT0/?img_index=2"
+          }
+        ]
+      }
+    ]
+  },
   "Services": [
     {
       "icon": "fa fa-wordpress",
@@ -152,8 +560,8 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
+    "address": "4321 Siyasa St, Livingtown, CA 12345 ",
+    "phone": "+1 123 456 7890",
     "email": "info@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",

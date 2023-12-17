@@ -40,7 +40,8 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Estamos en contacto</h2>
                 <p>
-                  Puedes seguirnos en redes sociales para estar al tanto de todas nuestras novedades.
+                  Puedes seguirnos en redes sociales <br />
+                  para estar al tanto de todas nuestras novedades.
                 </p>
               </div>
               {/* <form name="sentMessage" validate onSubmit={handleSubmit}>

@@ -1120,9 +1120,12 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  /* display: block; */
+  max-width: 50vw !important;
+  max-height: 50vw !important;
+  /* height: auto; */
+  margin-top: 25vw !important;
+  margin-bottom: 6.25vw !important;
 }
 .img-rounded {
   border-radius: 6px;
